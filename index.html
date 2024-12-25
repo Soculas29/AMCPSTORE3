@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMCPSTORE</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+
+        header {
+            background-color: #111;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1rem;
+            color: #ccc;
+        }
+
+        main {
+            padding: 5rem 2rem 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .contact {
+            background: #222;
+            border: none;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .contact h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        .contact p {
+            margin: 0.5rem 0;
+            font-size: 1rem;
+            color: #ccc;
+        }
+
+        footer {
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 3rem;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #ccc;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 6px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AmcStore</h1>
+        <p>Faça sua encomenda, todo sabádo remessa nova de pod!</p>
+    </header>
+    <main>
+        <section class="contact">
+            <h2>Entre em Contato</h2>
+            <p>Pedro: <a href="https://wa.me/5511948497614">(11) 94849-7614</a></p>
+            <p>Matheus: <a href="https://wa.me/5511944523294">(11) 94452-3294</a></p>
+            <p>Endereço: Grajaú - SPZS - Entregamos em todas regiões, taxa fixa de 5 a 15 reais!</p>
+        </section>
+        <section class="gallery">
+            <img src="https://cdn.awsli.com.br/600x700/2604/2604119/produto/314567967/lobuajh-7f5d4zpjtd.jpg" alt="Pod 1">
+            <img src="https://cdn.entrypoint.directory/assets/54229/produtos/3523/whatsapp-image-2024-01-11-at-09.41.40.jpeg" alt="Pod 2">
+            <img src="https://www.mestredovapor.com/cdn/shop/files/Ignite-V250-Lancamento.png?v=1729652667" alt="Pod 3">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 AmcStore. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
